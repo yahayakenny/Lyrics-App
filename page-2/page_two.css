@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white;
+ }
+ 
+ .top {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 20vh;
+     flex-direction: column;
+ }
+ 
+ .top input {
+     width: 300px
+ }
+
+ #lyric-content {
+    margin: 0 auto;
+     padding: 20px;
+     font-size: 18px;
+     width: 500px;
+     font-family: 'Fondamento', cursive;
+
+     
+ }
+
+ @media screen and (max-width: "400px"){
+     .top .search-bar {
+         display: flex;
+         flex-direction: column;
+     }
+
+ }

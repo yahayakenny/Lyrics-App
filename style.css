@@ -1,0 +1,70 @@
+body {
+   background-color: black;
+   color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    flex-direction: column;
+}
+
+.top input {
+    width: 350px
+}
+
+.lyrics {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    
+ }
+
+.card {
+    margin-top: 70px;
+    width: 300px;
+    height:589px;
+    color: black;
+    text-align: center;
+    
+}
+
+.card h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    color: white
+}
+
+
+a {
+    text-decoration: none;
+    color: white
+
+
+}
+
+
+.link {
+    color: black;
+}
+
+@media screen and (max-width: '768px'){
+    .top input {
+        width: 300px
+    }
+
+    .lyrics {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-left: 0px;
+        
+     }
+
+}
